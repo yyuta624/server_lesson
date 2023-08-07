@@ -1,0 +1,72 @@
+    1  ks
+    2  ls
+    3  cd root
+    4  ls
+    5  cd server_lesson
+    6  ls
+    7  mkdir linux_practice1
+    8  ls
+    9  cd linux_practice1
+   10  ks
+   11  ls
+   12  mkdir public
+   13  ls
+   14  cd public 
+   15  touch index.php
+   16  ks
+   17  ls
+   18  cp index.php index_bk.php
+   19  ls
+   20  cd -
+   21  ls
+   22  cp -r public tmp
+   23  ls
+   24  cd tmp
+   25  ls
+   26  rm index_bk.php
+   27  ls
+   28  cd
+   29  ls
+   30  cd server_lesson
+   31  ls
+   32  touch README.md
+   33  ls
+   34  vi README.md
+   35  cat README.md
+   36  ls
+   37  mkdir linux_practice2
+   38  ls
+   39  cd linux_practice2
+   40  mkdir documents
+   41  ls
+   42  cd documents
+   43  touch
+   44  touch gizumo{01..50}.md
+   45  ls
+   46  pwd
+   47  cd -
+   48  ls
+   49  mkdir trash
+   50  ls
+   51  cd documents
+   52  ls
+   53  mv gizumo{20..40}.md /root/server_lesson/linux_practice2/trash
+   54  ls
+   55  cd -
+   56  ls
+   57  cd trash
+   58  ls
+   59  cd
+   60  cd server_lesson
+   61  ls
+   62  cd linux_practice2
+   63  ls
+   64  touch .gitignore
+   65  ls -a
+   66  vi .gitignore
+   67  ls
+   68  ls -a
+   69  vi .gitignore
+   70  ls
+   71  history 300 >touch exec_command.log
+   72  history 300 >exec_command.log
